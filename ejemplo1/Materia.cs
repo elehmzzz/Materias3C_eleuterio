@@ -27,6 +27,11 @@ namespace Materias.ejemplo1
             set { p3 = value; }
         }
 
+        public string _nombreMateria {
+            get { return nombreMateria; }
+            set { nombreMateria = value; }
+        }
+
         //metodo
         public float calPromedio() {
             float prom = 0;
