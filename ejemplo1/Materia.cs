@@ -8,10 +8,11 @@ namespace Materias.ejemplo1
 {
     public class Materia
     {
+
         private float p1;
         private float p2;
         private float p3;
-        private string nombreMateria;
+        public string nombreMateria;
 
         //propiedades 
         public float _p1 {
@@ -27,10 +28,11 @@ namespace Materias.ejemplo1
             set { p3 = value; }
         }
 
-        public string _nombreMateria {
+        /*public string _nombreMateria {
             get { return nombreMateria; }
             set { nombreMateria = value; }
-        }
+        }*/
+
 
         //metodo
         public float calPromedio() {
