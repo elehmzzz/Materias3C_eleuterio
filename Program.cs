@@ -8,11 +8,11 @@ namespace Materias
     {
         static void Main(string[] args)
         {
-            Materia matematicas = new Materia();
-            matematicas._p1 = 10;
-            matematicas._p2 = 8;
-            matematicas._p3 = 10;
-            Console.WriteLine(matematicas.calPromedio());
+            Materia POO = new Materia();
+            Materia BaseDatos = new Materia("Base de datos",9,10,8);
+
+            Console.WriteLine(POO.Impresion());
+            Console.WriteLine(BaseDatos.Impresion());
         }
     }
 }
